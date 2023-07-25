@@ -85,7 +85,7 @@ const Hero = () => {
                     <Col lg={12} className='d-flex justify-content-end align-items-center'>
                         <div className='mt-5 pt-5'>
                             <p className='purple_color ff-opensans fs-28'>Лучший проект</p>
-                            <h1 className='mx-w-700 ff-opensans fw-800 fs-75 text-white keyframe'>Крипто
+                            <h1 className='mx-w-700 ff-opensans fw-800 fs-75 text-white'>Крипто
                                 <span className='ff-opensans fw-700 fs-75 purple_color'> Инвестиции</span></h1>
                             <p className='ff-opensans fw-400 fs-28 text-white mx-w-750 mt-3'>Международный проект инвестиции в криптовалюту и не только. Мы заработаем если вы заработаете!</p>
                             <div className='d-sm-flex gap-4 pt-4'>

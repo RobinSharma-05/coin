@@ -67,23 +67,23 @@ const TransformSlick = () => {
                 <Slider {...settings}>
 
                     <div className='px-5 py-5 position-relative'>
-                        <img className='w-90 border_radius' src={traslate_slick_1st_image} alt="" />
-                        <img onClick={handleShow} className='w-10 position-absolute play_btn_position' src={play_btn} alt="" />
+                        <img className='w-90 border_radius pointer_cursor' src={traslate_slick_1st_image} alt="" />
+                        <img onClick={handleShow} className='w-10 position-absolute play_btn_position pointer_cursor' src={play_btn} alt="" />
                     </div>
 
                     <div className='px-5 py-5 position-relative'>
-                        <img className='w-90 border_radius' src={translate_slick_2nd_image} alt="" />
-                        <img onClick={handleShow} className='w-10 position-absolute play_btn_position' src={play_btn} alt="" />
+                        <img className='w-90 border_radius pointer_cursor' src={translate_slick_2nd_image} alt="" />
+                        <img onClick={handleShow} className='w-10 position-absolute play_btn_position pointer_cursor' src={play_btn} alt="" />
                     </div>
 
                     <div className='px-5 py-5 position-relative'>
-                        <img className='w-90 border_radius' src={translate_slick_3rd_image} alt="" />
-                        <img onClick={handleShow} className='w-10 position-absolute play_btn_position' src={play_btn} alt="" />
+                        <img className='w-90 border_radius pointer_cursor' src={translate_slick_3rd_image} alt="" />
+                        <img onClick={handleShow} className='w-10 position-absolute play_btn_position pointer_cursor' src={play_btn} alt="" />
                     </div>
 
                     <div className='px-5 py-5 position-relative'>
-                        <img className='w-90 border_radius' src={translate_slick_2nd_image} alt="" />
-                        <img onClick={handleShow} className='w-10 position-absolute play_btn_position' src={play_btn} alt="" />
+                        <img className='w-90 border_radius pointer_cursor' src={translate_slick_2nd_image} alt="" />
+                        <img onClick={handleShow} className='w-10 position-absolute play_btn_position pointer_cursor' src={play_btn} alt="" />
                     </div>
 
                 </Slider>

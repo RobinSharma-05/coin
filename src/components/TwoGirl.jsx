@@ -43,14 +43,14 @@ const TwoGirl = () => {
                         <div className='d-flex'>
                             <img className='w-33' src={businessman_showing_thumbsup} alt="" />
                             <div className='position-relative'>
-                                <img className='w-100' src={girl_image_1} alt="" />
-                                <img onClick={handleShow} className='position-absolute w-25 play_btn_position_2' src={play_btn} alt="" />
+                                <img className='w-100 scale pointer_cursor' src={girl_image_1} alt="" />
+                                <img onClick={handleShow} className='position-absolute w-25 play_btn_position_2 pointer_cursor' src={play_btn} alt="" />
                             </div>
                             <div className='position-relative'>
                                 <div className='mt-5 pt-3'>
-                                    <img className='w-100' src={girl_image_2} alt="" />
+                                    <img className='w-100 scale pointer_cursor' src={girl_image_2} alt="" />
                                 </div>
-                                <img onClick={handleShow} className='position-absolute w-25 play_btn_position_3' src={play_btn} alt="" />
+                                <img onClick={handleShow} className='position-absolute w-25 play_btn_position_3 pointer_cursor' src={play_btn} alt="" />
                             </div>
                         </div>
                     </Col>

@@ -61,32 +61,32 @@ const LinearSlider = () => {
                 <h3 className='ff-opensans fw-400 fs-48 text-center'>Наши площадки</h3>
                 <p className=' ff-opensans fw-400 fs-28 mx-w-950 mx-auto d-flex text-center mt-3'>Наш проект работает только с проверенными площадками для инвестиций, чтобы максимально снизить риски.</p>
                 <Slider {...settings} className='pb-4 mt-5'>
-                    <div>
-                        <img className='w-75 mt-1' src={bitcoin} alt="" />
+                    <div> pointer_cursor
+                        <img className='w-75 mt-1 pointer_cursor' src={bitcoin} alt="" />
                     </div>
                     <div>
-                        <img className='w-75 mt-1' src={Litecoin} alt="" />
+                        <img className='w-75 mt-1 pointer_cursor' src={Litecoin} alt="" />
                     </div>
                     <div>
-                        <img className='w-75' src={tezos} alt="" />
+                        <img className='w-75 pointer_cursor' src={tezos} alt="" />
                     </div>
                     <div>
-                        <img className='w-75 mt-2' src={ethereum} alt="" />
+                        <img className='w-75 mt-2 pointer_cursor' src={ethereum} alt="" />
                     </div>
                     <div>
-                        <img className='w-75' src={Chainlink} alt="" />
+                        <img className='w-75 pointer_cursor' src={Chainlink} alt="" />
                     </div>
                     <div>
-                        <img className='w-75' src={ton} alt="" />
+                        <img className='w-75 pointer_cursor' src={ton} alt="" />
                     </div>
                     <div>
-                        <img className='w-75 mt-2' src={ethereum} alt="" />
+                        <img className='w-75 mt-2 pointer_cursor' src={ethereum} alt="" />
                     </div>
                     <div>
-                        <img className='w-75' src={tezos} alt="" />
+                        <img className='w-75 pointer_cursor' src={tezos} alt="" />
                     </div>
                     <div>
-                        <img className='w-75' src={ton} alt="" />
+                        <img className='w-75 pointer_cursor' src={ton} alt="" />
                     </div>
                 </Slider>
                 <p className='line d-flex mx-auto my-5'></p>

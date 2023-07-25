@@ -215,11 +215,13 @@
 
 .slick-dots li button:before {
   font-size: 15px !important;
-  width: 50px !important;
-  height: 50px !important;
-  content: '•';
-  text-align: center;
-  color: #1A74C7 !important;
+  color: rgb(26, 116, 199) !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: rgb(37, 43, 66) !important;
 }
 
 .input_style {
@@ -313,4 +315,17 @@
   100% {
     transform: translate(0px);
   }
+}
+
+.scale {
+  transform: scale(1);
+  transition: all 300ms linear;
+}
+
+.scale:hover {
+  transform: scale(1.05);
+}
+
+.pointer_cursor {
+  cursor: pointer;
 }
